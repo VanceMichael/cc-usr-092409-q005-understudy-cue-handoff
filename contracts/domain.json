@@ -1,0 +1,15 @@
+{
+  "version": "2026-09",
+  "entities": [
+    "show",
+    "cue_package",
+    "asset",
+    "issued_sheet"
+  ],
+  "cue_types": [
+    "light",
+    "caption",
+    "percussion",
+    "entrance"
+  ]
+}

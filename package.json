@@ -1,0 +1,14 @@
+{
+  "name": "usr-0912014102-q002",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "build": "node --check src/server.js"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
