@@ -4,12 +4,52 @@
     "show",
     "cue_package",
     "asset",
-    "issued_sheet"
+    "issued_sheet",
+    "person",
+    "role",
+    "role_version",
+    "cue",
+    "safety_point",
+    "cast_change",
+    "signature",
+    "authorization",
+    "lease",
+    "rehearsal_receipt",
+    "execution",
+    "skip",
+    "review"
   ],
   "cue_types": [
     "light",
     "caption",
     "percussion",
-    "entrance"
+    "entrance",
+    "machinery",
+    "pyro",
+    "scene_change"
+  ],
+  "departments": [
+    "light",
+    "props",
+    "machinery",
+    "blocking"
+  ],
+  "staff_roles": [
+    "actor",
+    "understudy",
+    "supervisor",
+    "crew:light",
+    "crew:props",
+    "crew:machinery",
+    "crew:blocking"
+  ],
+  "signature_duties": [
+    "understudy",
+    "crew:<department>",
+    "supervisor"
+  ],
+  "lease_resources": [
+    "person:<personId>",
+    "equipment:<equipmentId>"
   ]
 }
