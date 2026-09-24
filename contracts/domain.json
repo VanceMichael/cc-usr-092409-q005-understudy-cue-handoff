@@ -4,12 +4,53 @@
     "show",
     "cue_package",
     "asset",
-    "issued_sheet"
+    "issued_sheet",
+    "role_version",
+    "rehearsal_receipt",
+    "performance",
+    "cast_change_request",
+    "reconfirmation",
+    "show_authorization",
+    "resource_lease",
+    "safety_point",
+    "emergency_bypass",
+    "execution_record",
+    "audit_event"
   ],
   "cue_types": [
     "light",
     "caption",
     "percussion",
-    "entrance"
-  ]
+    "entrance",
+    "prop",
+    "machinery",
+    "blocking"
+  ],
+  "action_categories": [
+    "lift",
+    "pyro",
+    "quick_change"
+  ],
+  "high_risk_actions": [
+    { "cue_type": "machinery", "action": "lift" },
+    { "cue_type": "prop", "action": "pyro" },
+    { "cue_type": "blocking", "action": "quick_change" }
+  ],
+  "execution_groups": {
+    "light": "灯光组",
+    "caption": "字幕组",
+    "percussion": "锣鼓组",
+    "entrance": "场务组",
+    "prop": "道具组",
+    "machinery": "机械组",
+    "blocking": "走位组"
+  },
+  "signing_roles": ["understudy", "execution_group", "stage_manager"],
+  "lease_resource_kinds": ["performer", "equipment"],
+  "reconfirmation_decisions": ["confirmed", "adjusted", "blocked"],
+  "cast_change_reasons": ["injury", "absence", "illness", "other"],
+  "request_status": ["frozen", "ready", "authorized", "superseded", "withdrawn"],
+  "authorization_status": ["active", "exhausted", "expired", "revoked"],
+  "lease_status": ["granted", "released"],
+  "bypass_dispositions": ["used", "unused"]
 }
